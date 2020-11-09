@@ -8,7 +8,8 @@
     </p>
     <p>
       対応力抜群のWebフリーランス。
-      <br />LP・HP制作、メディア運用、記事制作できます。
+      <br />アフィリエイト, LP/ホームページ制作、カフェ経営をしています。
+      <br />⇒ <a href="https://yusai.me/profile/">経歴の詳細はこちら</a>
     </p>
 
     <div class="skill-set">
@@ -27,9 +28,10 @@
       <v-layout wrap class="skill-name">
         <span>HTML</span>
         <span>CSS</span>
-        <span>SASS</span>
+        <span>Sass</span>
         <span>jQuery</span>
         <span>Wordpress</span>
+        <span>STUDIO</span>
       </v-layout>
     </div>
 
@@ -47,10 +49,11 @@
         </h2>
       </transition>
       <v-layout wrap class="skill-name">
-        <span>Vue.js</span>
-        <span>Nuxt.js</span>
+        <span>JavaScript</span>
         <span>Ruby</span>
-        <span>Ruby on rails</span>
+        <span>Ruby on Rails</span>
+        <span>Python</span>
+        <span>Flask</span>
       </v-layout>
     </div>
 
@@ -62,7 +65,7 @@
         <a href="https://github.com/yusai713">
           <v-icon style="color:#000;">fab fa-github fa-3x</v-icon>
         </a>
-        <a href>
+        <a href="https://yusai.me/">
           <img src="@/assets/logo.png" />
         </a>
       </v-layout>
@@ -113,7 +116,7 @@ h2 > span {
   & > span {
     border: 1px solid;
     padding: 3px 5px;
-    margin: 0 5px;
+    margin: 0 5px 10px;
     &:hover {
       background: #000;
       color: #fff;
@@ -127,6 +130,7 @@ h2 > span {
   justify-content: center;
   a {
     margin-right: 20px;
+    text-decoration: none;
     &:hover {
       transform: scale(1.2, 1.2); //X方向とY方向
       opacity: 0.7;
@@ -136,6 +140,10 @@ h2 > span {
       height: 3em;
     }
   }
+}
+
+.fa-3x {
+  font-size: 3em;
 }
 
 //アニメーションfadein
@@ -242,13 +250,6 @@ h2 > span {
   }
 }
 
-.bound02 {
-  animation: bound 1s linear infinite;
-  animation-iteration-count: 2;
-  animation-direction: alternate;
-  animation-delay: 5.5s;
-}
-
 @keyframes bound {
   0% {
     transform: translateY(0);
@@ -259,5 +260,12 @@ h2 > span {
   100% {
     transform: translateY(0px);
   }
+}
+
+.bound02 {
+  animation: bound 1s linear infinite;
+  animation-iteration-count: 2;
+  animation-direction: alternate;
+  animation-delay: 5.5s;
 }
 </style>

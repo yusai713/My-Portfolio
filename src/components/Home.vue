@@ -20,8 +20,8 @@ export default {
   position: relative;
   width: 100vw;
   height: 100vh;
-  animation: wave02 10s ease infinite;
-  animation-direction: alternate;
+  //animation: wave02 10s ease infinite;
+  //animation-direction: alternate;
 }
 h1 {
   position: absolute;
