@@ -1,3 +1,5 @@
 module.exports = {
-  baseUrl: "./"
+  baseUrl: "./",
+  publicPath: '/My-Portfolio/',
+  outputDir: 'docs'
 };
