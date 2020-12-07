@@ -29,6 +29,7 @@
         <span>HTML</span>
         <span>CSS</span>
         <span>Sass</span>
+        <span>JavaScript</span>
         <span>jQuery</span>
         <span>Wordpress</span>
         <span>STUDIO</span>
@@ -49,7 +50,6 @@
         </h2>
       </transition>
       <v-layout wrap class="skill-name">
-        <span>JavaScript</span>
         <span>Ruby</span>
         <span>Ruby on Rails</span>
         <span>Python</span>
@@ -60,10 +60,10 @@
     <transition appear>
       <v-layout wrap class="information-icon bound02" v-cloak>
         <a href="https://twitter.com/yusai0713">
-          <v-icon style="color:#1FA1F2;">fab fa-twitter fa-3x</v-icon>
+          <v-icon style="color: #1fa1f2">fab fa-twitter fa-3x</v-icon>
         </a>
         <a href="https://github.com/yusai713">
-          <v-icon style="color:#000;">fab fa-github fa-3x</v-icon>
+          <v-icon style="color: #000">fab fa-github fa-3x</v-icon>
         </a>
         <a href="https://yusai.me/">
           <img src="@/assets/logo.png" />
@@ -73,8 +73,7 @@
   </v-container>
 </template>
 
-<script>
-</script>
+<script></script>
 
 <style lang="scss" scoped>
 $mx: 50px 0;

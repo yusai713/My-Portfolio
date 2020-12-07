@@ -9,17 +9,17 @@
               <img :src="item.img" alt height="200" />
             </a>
             <v-card-title>
-              <p>{{item.title}}</p>
-              <p>{{item.skill}}</p>
-              <p>{{item.charge}}</p>
+              <p>{{ item.title }}</p>
+              <p>{{ item.skill }}</p>
+              <p>{{ item.charge }}</p>
             </v-card-title>
           </v-card>
         </transition>
       </v-flex>
     </v-layout>
-    <div>その他の実績に関してはお問い合わせください。
-      <br />⇒
-      <router-link :to="{name: 'contact'}">
+    <div>
+      その他の実績に関してはお問い合わせください。 <br />⇒
+      <router-link :to="{ name: 'contact' }">
         <span>Contact</span>
       </router-link>
     </div>
@@ -33,11 +33,11 @@ export default {
       worklist: [
         {
           id: 1,
-          title: "【Lagoon(仮)】",
+          title: "【Lagoon（仮）】",
           link: "https://honkidasu.net/my-portfolio1/",
           skill: "HTML, Sass, jQuery, WordPress",
           charge: "デザイン, コーディング",
-          img: require("../assets/site-1.jpg")
+          img: require("../assets/site-1.jpg"),
         },
         {
           id: 2,
@@ -45,7 +45,7 @@ export default {
           link: "/",
           skill: "HTML, Sass, Vue.js, Vuetify",
           charge: "デザイン, コーディング",
-          img: require("@/assets/site-2.jpg")
+          img: require("@/assets/site-2.jpg"),
         },
         {
           id: 3,
@@ -53,7 +53,7 @@ export default {
           link: "https://ancient-spire-97884.herokuapp.com/",
           skill: "HTML, Sass, Ruby on Rails",
           charge: "デザイン, コーディング",
-          img: require("@/assets/site-3.jpg")
+          img: require("@/assets/site-3.jpg"),
         },
         {
           id: 4,
@@ -61,7 +61,7 @@ export default {
           link: "https://stormy-retreat-61895.herokuapp.com/",
           skill: "HTML, CSS, flask, JavaScript",
           charge: "デザイン, コーディング in チーム制作",
-          img: require("@/assets/site-4.jpg")
+          img: require("@/assets/site-4.jpg"),
         },
         {
           id: 5,
@@ -69,7 +69,7 @@ export default {
           link: "https://roots-create.studio.site/",
           skill: "STUDIO",
           charge: "コーディング",
-          img: require("@/assets/site-5.jpg")
+          img: require("@/assets/site-5.jpg"),
         },
         {
           id: 6,
@@ -77,20 +77,20 @@ export default {
           link: "https://dotroots.net/",
           skill: "HTML, CSS, WordPressカスタマイズ",
           charge: "コーディング",
-          img: require("@/assets/site-6.jpg")
-        }
-      ]
+          img: require("@/assets/site-6.jpg"),
+        },
+      ],
     };
-  }
+  },
 };
 </script>
 
 <style lang="scss" scoped>
 //scopedをつけると、CSSの適用範囲がここに限定される
-.layout{
+.layout {
   margin-bottom: 45px;
 }
-.v-card{
+.v-card {
   &:hover {
     opacity: 0.7;
     cursor: pointer;
@@ -98,7 +98,7 @@ export default {
   }
 }
 a {
-  color: rgba(0,0,0,0.87);
+  color: rgba(0, 0, 0, 0.87);
   display: inline-block;
 }
 h2 {
@@ -119,7 +119,7 @@ h2 {
   p {
     width: 100%;
     font-weight: bold;
-    &:not(:last-child){
+    &:not(:last-child) {
       margin-bottom: 5px;
     }
   }

@@ -1,25 +1,28 @@
 <template>
   <header>
-    <v-toolbar-side-icon @click="toggleSideMenu" class="hidden-sm-and-up"></v-toolbar-side-icon>
+    <v-toolbar-side-icon
+      @click="toggleSideMenu"
+      class="hidden-sm-and-up"
+    ></v-toolbar-side-icon>
     <nav>
       <ul>
         <li>
-          <router-link :to="{name: 'home'}" exact>
+          <router-link :to="{ name: 'home' }" exact>
             <span>Home</span>
           </router-link>
         </li>
         <li>
-          <router-link :to="{name: 'about'}">
+          <router-link :to="{ name: 'about' }">
             <span>About</span>
           </router-link>
         </li>
         <li>
-          <router-link :to="{name: 'work'}">
-            <span>Work</span>
+          <router-link :to="{ name: 'portoforio' }">
+            <span>Portoforio</span>
           </router-link>
         </li>
         <li>
-          <router-link :to="{name: 'contact'}">
+          <router-link :to="{ name: 'contact' }">
             <span>Contact</span>
           </router-link>
         </li>
@@ -34,12 +37,12 @@ import { mapActions } from "vuex"; //conponentsのmethodsにstoreのactionメソ
 export default {
   component: {},
   methods: {
-    ...mapActions(["toggleSideMenu"]) //追加したいアクションは配列に追加するだけでOK
-  }
+    ...mapActions(["toggleSideMenu"]), //追加したいアクションは配列に追加するだけでOK
+  },
 };
 </script>
 
- <style lang="scss" scoped>
+<style lang="scss" scoped>
 a {
   color: #35495e;
   text-decoration: none;

@@ -22,8 +22,8 @@ export default new Router({
       component: About
     },
     {
-      path: "/work",
-      name: "work",
+      path: "/portoforio",
+      name: "portoforio",
       component: Work
     },
     {
