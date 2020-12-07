@@ -8,8 +8,9 @@
     </p>
     <p>
       対応力抜群のWebフリーランス。
-      <br />アフィリエイト, LP/ホームページ制作、カフェ経営をしています。
-      <br />⇒ <a href="https://yusai.me/profile/">経歴の詳細はこちら</a>
+      <br />アフィリエイト、LP/ホームページ制作、コワーキングカフェの運営をしています。
+      <br />⇒
+      <a href="https://yusai.me/profile/">経歴の詳細はこちら</a>
     </p>
 
     <div class="skill-set">
