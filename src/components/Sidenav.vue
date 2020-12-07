@@ -15,7 +15,12 @@
     <v-list class="pt-0" dense>
       <v-divider></v-divider>
 
-      <v-list-tile v-for="item in items" :key="item.title" :to="item.link">
+      <v-list-tile
+        v-for="item in items"
+        :key="item.title"
+        :to="item.link"
+        exact
+      >
         <v-list-tile-action>
           <v-icon>{{ item.icon }}</v-icon>
         </v-list-tile-action>
@@ -33,12 +38,12 @@ export default {
   data() {
     return {
       items: [
-        { title: "HOME", icon: "home", link: { name: "home" } },
+        { title: "Home", icon: "home", link: { name: "home" } },
         { title: "About", icon: "face", link: { name: "about" } },
-        { title: "Work", icon: "face", link: { name: "work" } },
-        { title: "Contact", icon: "mail", link: { name: "contact" } }
-      ]
+        { title: "Works", icon: "face", link: { name: "works" } },
+        { title: "Contact", icon: "mail", link: { name: "contact" } },
+      ],
     };
-  }
+  },
 };
 </script>

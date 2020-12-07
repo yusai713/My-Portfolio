@@ -66,7 +66,7 @@
           <v-icon style="color: #000">fab fa-github fa-3x</v-icon>
         </a>
         <a href="https://yusai.me/">
-          <img src="@/assets/logo.png" />
+          <img src="@/assets/logo.png" alt="ブログ" />
         </a>
       </v-layout>
     </transition>

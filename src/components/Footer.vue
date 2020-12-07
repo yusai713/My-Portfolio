@@ -1,12 +1,12 @@
 <template>
   <footer>
-    <small>© 2019 悠才 All rights reserved.</small>
+    <small>© 2020 悠才 All rights reserved.</small>
   </footer>
 </template>
 
 <script>
 export default {
-  components: {}
+  components: {},
 };
 </script>
 

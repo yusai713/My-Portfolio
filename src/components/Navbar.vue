@@ -17,8 +17,8 @@
           </router-link>
         </li>
         <li>
-          <router-link :to="{ name: 'portoforio' }">
-            <span>Portoforio</span>
+          <router-link :to="{ name: 'works' }">
+            <span>Works</span>
           </router-link>
         </li>
         <li>

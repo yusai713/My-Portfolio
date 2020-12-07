@@ -18,7 +18,8 @@
       </v-flex>
     </v-layout>
     <div>
-      その他の実績に関してはお問い合わせください。 <br />⇒
+      上記は個人的な制作物になります。<br />
+      その他の制作実績に関してはお問い合わせください。 <br />⇒
       <router-link :to="{ name: 'contact' }">
         <span>Contact</span>
       </router-link>
